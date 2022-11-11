@@ -1,0 +1,38 @@
+
+.about-us .inner-card img{
+    max-width:100%;
+}
+.about-us .inner-container{
+    align-items: center;
+    height: 380px;
+    overflow: hidden;
+}
+.about-us .text-container{
+    padding-left:30px;
+}
+.about-us .cloumn-reverse .text-container{
+    padding-left: 0px;
+    padding-right: 30px;
+}
+
+@media only screen and (max-width:1200px) {
+    .about-us .inner-container{
+        padding:0px 20px;
+        margin-bottom: 20px;
+    }
+    .about-us .inner-card img{
+        max-width:100%;
+    }
+    .about-us .text-container{
+        padding:20px 0px;
+    }
+    .section-sub-tittle h3{
+        font-size:1.7rem;
+    }
+    .about-us .inner-container{
+        height: auto;
+    }
+    .cloumn-reverse{
+        flex-direction: column-reverse;
+    }
+  }

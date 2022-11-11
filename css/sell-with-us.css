@@ -1,0 +1,16 @@
+.sell-with-us .inner-card{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+}
+.sell-with-us .inner-card2{
+    height: 500px;
+    background-color: #ffffff;
+}
+.sell-with-us .inner-card img,.sell-with-us .inner-card2 img{
+    max-width: 100%;
+}
+
+.sell-with-us .inner-card .row,.sell-with-us .inner-card2 .row{
+    height: 100%;
+}
